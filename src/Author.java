@@ -19,4 +19,5 @@ public class Author {
     /*public boolean equals(Author author){
       return
     }*/
+    //hachcode  объясните
     }
