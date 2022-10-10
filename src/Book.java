@@ -1,8 +1,8 @@
 public class Book {
     private String title;
-    private String author;
+    private Author author;
     private int datePublication;
-    public Book(String title,String author,int datePublication) {
+    public Book(String title, Author author,int datePublication) {
         this.title=title;
         this.author=author;
         this.datePublication=datePublication;}
@@ -10,7 +10,7 @@ public class Book {
     public String getTitle(){
         return this.title;
         }
-    public String getAuthor(){
+    public Author getAuthor(){
         return this.author;
     }
     public int getDatePublication(){
@@ -19,4 +19,7 @@ public class Book {
     public  void setDatePublication(int datePublication){
         this.datePublication=datePublication;
     }
+
+
+
 }
